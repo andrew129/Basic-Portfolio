@@ -12,7 +12,7 @@ h1 {
     z-index: 1;
     margin-bottom: 70px;
     border-bottom: solid 2px;
-    border-color: #dddddd;
+    border-color: #4aaaa5;
 }
 
 a {
@@ -83,4 +83,5 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: #4aaaa5;
 }
