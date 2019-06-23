@@ -82,4 +82,40 @@ a:hover {
 #pic5 {
     padding-top: 1px;
     padding-bottom: 10px;
+
+}
+
+#wordgame {
+    position: relative;
+    left: 20px;
+    background: #4aaaa5;
+    color: white;
+    bottom: 400px;
+    z-index: 2;
+    top: -35px;
+    width: 40px;
+
+
+}
+
+#pic1 {
+    position: relative;
+    right: 160px;
+}
+
+#pic2 {
+    position: relative;
+    right: 160px;
+    top: 0.5px;
+}
+
+#pic3 {
+    position: relative;
+    right: 160px;
+
+}
+
+#pic4 {
+    position: relative;
+    top: 20px;
 }
