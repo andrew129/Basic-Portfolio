@@ -39,6 +39,7 @@ body{
 }
 
 footer{
+    z-index: 3;
     background-image: linear-gradient(rgb(96, 123, 190), rgb(70, 70, 214));
     border-top: 5px solid rgba(255, 255, 255, 0.849);
     margin: 0;
@@ -53,7 +54,7 @@ footer{
 
 .main-content {
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
     margin-left: 250px;
     background: rgb(241, 220, 220, 0.5);
     width: 933px;
@@ -122,7 +123,7 @@ a:hover {
     background-position-y: -160px;
     background-position-x: 280px;
     z-index: 2;
-    top: -9px;
+    top: 12px;
     left: 626px;
     background-image: url(../images/jenna-beekhuis-Bm0Ja6LZWl4-unsplash.jpg);
     padding-right: 71.97px;
@@ -135,8 +136,8 @@ a:hover {
     background-position-y: -160px;
     background-position-x: 280px;
     z-index: 2;
-    right: 634.5px;
-    top: 225px;
+    right: 327.5px;
+    top: 117px;
     padding-right: 58px;
     padding-left: 58px;
     background-image: url(../images/jenna-beekhuis-Bm0Ja6LZWl4-unsplash.jpg);
@@ -149,7 +150,7 @@ a:hover {
     background-position-x: 280px;
     z-index: 2;
     left: -268px;
-    top: 265px;
+    top: 286px;
     padding-left: 76px;
     padding-right: 76px;
     background-image: url(../images/jenna-beekhuis-Bm0Ja6LZWl4-unsplash.jpg);
@@ -196,3 +197,118 @@ a:hover {
     height: 50px;
     bottom: 190px;
 }
+
+#git:hover {
+    border: orange solid 2px;
+  }
+
+#linked:hover {
+    border: orange solid 2px;
+  }
+
+#wordcode, #synthcode, #gifcode, #traincode {
+    border: none;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/jenna-beekhuis-Bm0Ja6LZWl4-unsplash.jpg);
+    background-position-y: -160px;
+    background-position-x: 280px;
+}
+
+#wordcode {
+    position: relative;
+    padding-right: 88px;
+    padding-left: 88px;
+    top: 242px;
+    right: 249px;
+}
+
+#gifcode {
+    position: relative;
+    padding-right: 87px;
+    padding-left: 87px;
+    left: 20.5px;
+    top: 221px;
+}
+
+#synthcode {
+    position: relative;
+    padding-right: 87.8px;
+    padding-left: 87.8px;
+    left: 345px;
+    top: 221px;
+}
+
+#traincode {
+    position: relative;
+    padding-right: 87.95px;
+    padding-left: 87.95px;
+    top: 495px;
+    right: 545px; 
+}
+
+@media screen and (max-width: 980px) {
+    .main-content {
+        width: 500px;
+        position: relative;
+        left: 40px;
+    }
+
+    #sites {
+        position: relative;
+        bottom: 130px;
+        width: 20%;
+        left: 2px;
+    }
+
+    #navigation {
+        padding-bottom: 38px;
+    }
+
+    #git {
+        width: 6%;
+    }
+
+    #linked {
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navigation {
+        padding-bottom: 15px;
+    }
+
+    .main-content {
+        position: relative;
+        left: -50px;
+    }
+
+    #sites {
+        position: relative;
+        top: -130px;
+        left: 20px;
+    }
+
+    #git {
+        position: relative;
+        bottom: -25px;
+        width: 7%;
+    }
+
+    #linked {
+        position: relative;
+        width: 7%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 400px;
+        position: relative;
+        left: -70px;
+    }
+
+}
+

@@ -149,3 +149,91 @@ footer{
     height: 50px;
     bottom: 233px;
 }
+
+#git:hover {
+    border: orange solid 2px;
+  }
+
+#linked:hover {
+    border: orange solid 2px;
+  }
+
+  @media screen and (max-width: 980px) {
+    .main-content {
+        width: 500px;
+        position: relative;
+        left: 40px;
+    }
+
+    #sites {
+        position: relative;
+        bottom: 130px;
+        width: 20%;
+        left: 2px;
+    }
+
+    #navigation {
+        padding-bottom: 38px;
+    }
+
+    a {
+        position: relative;
+        right: 120px;
+    }
+
+    #git {
+        width: 6%;
+    }
+
+    #linked {
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navigation {
+        padding-bottom: 15px;
+    }
+
+    .main-content {
+        position: relative;
+        left: -50px;
+    }
+
+    #sites {
+        position: relative;
+        top: -130px;
+        left: 20px;
+    }
+
+    a {
+        position: relative;
+        top: -2px;
+    }
+
+    #git {
+        position: relative;
+        bottom: -25px;
+        width: 7%;
+    }
+
+    #linked {
+        position: relative;
+        width: 7%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 400px;
+        position: relative;
+        left: -70px;
+    }
+
+    a {
+        position: relative;
+        left: -200px;
+        top: 5px;
+    }
+}
+
