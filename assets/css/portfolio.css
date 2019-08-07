@@ -16,7 +16,7 @@
     background-position-y: -150px;
     background-position-x: 250px;
     color: white;
-    padding: 11.75px 20px 10.75px 20px;
+    padding: 10.75px 20px 10.75px 20px;
     width: 200px;
     border-left: white solid 2px;
     border-right: white solid 2px;
@@ -250,20 +250,37 @@ a:hover {
 
 @media screen and (max-width: 980px) {
     .main-content {
-        width: 500px;
+        width: 625px;
         position: relative;
-        left: 40px;
+        left: -70px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+    }
+
+    #name {
+        margin-left: 180px;
+        padding-top: 6px;
+    }
+
+    a {
+        padding-right: 7px;
+        position: relative;
+        left: -126px;
     }
 
     #sites {
         position: relative;
-        bottom: 130px;
+        bottom: 125px;
         width: 20%;
-        left: 2px;
+        left: -10px;
+    }
+
+    #portfolio {
+        padding-bottom: 30px;
     }
 
     #navigation {
-        padding-bottom: 38px;
+        padding-bottom: 55px;
     }
 
     #git {
@@ -273,16 +290,33 @@ a:hover {
     #linked {
         width: 6%;
     }
+
+    .images {
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+
+    body {
+        background-position-y: 110px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     #navigation {
-        padding-bottom: 15px;
+        padding-bottom: 9px;
+    }
+
+    a {
+        padding-right: 1px;
+        top: -2px;
+        left: -220px;
+        border: none;
     }
 
     .main-content {
         position: relative;
         left: -50px;
+        margin-left: 120px;
     }
 
     #sites {
@@ -301,6 +335,11 @@ a:hover {
         position: relative;
         width: 7%;
     }
+
+    #name {
+        margin-left: 70px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
